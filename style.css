@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+    header{
+        margin: 47px 0 0 42px;
+    }
+    .link-menu{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0.875px;
+        color: #17233D;
+        margin-right: 32px;
+        width: 83px;
+        height: 21px;
+        cursor: pointer;
+}
+
+    .button-SignUp{
+        background: #6FBF44;
+        border-radius: 6px;
+        width: 124px;
+        height: 51px;
+        border: 1px 0px 0px 0px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        cursor: pointer;
+        border: 1px solid #4CB538
+        
+}
+
+    img{
+        margin: 163px 0 0 123px;
+        display: inline-block;
+    }
+
+    .caixa-de-texto{
+        display: inline-block;
+        font-size: 62px;
+        font-weight: 700;
+        line-height: 82px;
+        letter-spacing: 0.5961538553237915px;
+        width: 493px;
+
+}
+
+    h1{
+    
+        font-size: 62px;
+        font-weight: 700;
+        line-height: 82px;
+        letter-spacing: 0.5961538553237915px;
+        color: #161A49;
+        width: 582px;
+        height: 164px;
+        margin-left: 85px;
+
+}
+    p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        height: 99px;
+        margin-top: 47px;
+        margin-bottom: 55px;
+        margin-left: 85px;
+        color: #4B505A;
+}
+
+    .link-learn-more{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 1px;
+        width: 112px;
+        height: 27px;
+        margin-left: 85px;
+        color: #6FBF44;
+        cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .link-menu{
+        display: none;
+    }
+
+    .button-SignUp{
+        margin: 17px 15px 76px 284px;
+    }
+
+ 
+    .caixa-de-texto{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.5961538553237915px;
+        text-align: center;
+        padding: 10px;
+        
+    }
+
+    h1{
+        
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.5961538553237915px;
+        padding: 10px;
+        width: 278px;
+        height: 60px;
+        top: -1331px;
+        left: 1185px;
+
+    }
+
+    p{
+   
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        padding: 10px;
+        width: 304px;
+        height: 165px;
+        top: -1242px;
+        left: 1171px;
+
+    }
+
+    .link-learn-more{
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 1px;
+        margin: 59px auto;
+    }
+
+    img{
+        margin: 400px 39px 39px 22px;
+        display: block;
+        position: absolute;
+        width: 312px;
+        height: 288px;
+
+   }
+    .image-logo{
+        display: inline-block;
+        margin-left: 80px;
+        margin-bottom: 22px;
+}
+   
+}
